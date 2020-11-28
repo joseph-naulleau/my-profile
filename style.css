@@ -1,0 +1,116 @@
+/*Colors and font*/
+
+body {
+	background: #DEF1FD;
+	color: rgb(40;40;40);
+font-family: 'Lato', sans-serif;	
+font-size: 14px
+font-weight:400 ;
+}
+h1,h2,h3 {
+	font-family: 'Merriweather', serif;}
+h1 {
+	color: black
+	font-weight:900;
+	
+	font-size: :32px;
+}
+
+h2{ 
+color: #1B7EF6; 
+font-weight:700;
+
+font-size: 25px}
+
+a {
+  color: #1B7EF6;
+  text-decoration: bold;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+
+
+
+/*Custom designs*/
+.container {
+width: 700px;
+margin: 0px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 20px 0 ;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #1B7EF6;
+	color: white;
+	padding: 13px 17px;
+	border-radius: 10px;
+}
+
+.list-inline {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i{
+	font-size: 40px;
+	color: rgb(180,180,180)
+}
+
+.list-inline i:hover {
+	color: black
+}
+
+#intro p{
+	margin-bottom: 40px
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 320px
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
